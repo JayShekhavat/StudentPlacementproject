@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel = "stylesheet" href = "/static/css/style.css">
+	<script type = "text/javascript" src = "/static/script/script.js"></script>
+</head>
+<body align="center">
+<h2>hello everyone</h2>
+
+<p>login by the username</p>
+	<form method="POST" action="\predict">
+		<b>Internship: <input name="internship" type = "text"><br><br>
+		   CGPA: <input name="CGPA" type="text"><br><br>
+		   Hostel:<input name="Hostel" type="text"><br><br>
+		<button type="submit" value = "predict">Predict</button></b>
+	</form>
+
+<p> {{prediction_text}}</p>
+
+
+
+
+
+</body>
+</html>
